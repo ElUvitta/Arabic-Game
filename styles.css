@@ -1,0 +1,108 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#TEXTO {
+    font-family: MINECRAFT;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: MINECRAFT;
+    src: url(Fonts/Minecraft.ttf);
+}
+
+@font-face {
+    font-family: ROCK;
+    src: url(Fonts/Crang.ttf);
+}
+
+@font-face {
+    font-family: SPOOKY;
+    src: url(Fonts/Spooky.otf);
+}
+
+#CAJA {
+    background-color: #0a0a0a;
+    padding: 50px;
+    margin: 0px 150px 0 150px;
+}
+
+#CAJA iframe {
+    margin-top: 20px; /* Agregar espacio superior al iframe */
+}
+
+#BARRA {
+    background-color: rgba(180, 152, 91, 0.705);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+#BARRA #LOGO img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+#BARRA #LOGO {
+    cursor: pointer;
+}
+
+#BARRA #LOGO img:hover {
+    transform: scale(1.1,1.1);
+}
+
+#BARRA #NAV_LINKS {
+    list-style: none;
+}
+
+#BARRA #NAV_LINKS li {
+    display: inline-block;
+    padding: 0 20px;
+    font-family: SPOOKY;
+}
+
+#BARRA #NAV_LINKS a {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#BARRA #NAV_LINKS li:hover {
+    transform: scale(1.1,1.1);
+}
+
+
+#BARRA #NAV_LINKS li a:hover {
+    color: rgb(42, 26, 78);
+}
+
+#BARRA #BTN button {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: ROCK;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#BARRA #BTN button:hover {
+    background-color: burlywood;
+    color: rgb(0, 0, 0);
+}
